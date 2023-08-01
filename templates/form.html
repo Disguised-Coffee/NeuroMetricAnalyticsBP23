@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<!-- This template is not to be used -->
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Modern Form Template</title>
+  <link href="" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>Modern Form</h1>
+    <form>
+      <!-- Prompt 1: Radio Buttons -->
+      <div class="form-group">
+        <label>Do you like programming?</label>
+        <div class="radio-group">
+          <input type="radio" name="programming" id="yes" value="Yes" required>
+          <label for="yes">Yes</label>
+          <input type="radio" name="programming" id="no" value="No">
+          <label for="no">No</label>
+        </div>
+      </div>
+
+      <!-- Prompt 2: Drop-down Box -->
+      <div class="form-group">
+        <label>What's your favorite programming language?</label>
+        <select name="language" required>
+          <option value="" disabled selected>Select language</option>
+          <option value="JavaScript">JavaScript</option>
+          <option value="Python">Python</option>
+          <option value="Java">Java</option>
+          <option value="C++">C++</option>
+          <option value="Ruby">Ruby</option>
+        </select>
+      </div>
+
+      <!-- Prompt 3: Text Box -->
+      <div class="form-group">
+        <label>Write a comment:</label>
+        <textarea name="comment" rows="4" required></textarea>
+      </div>
+
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+  <script src="javascript/form.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,48 @@
+/* Styles for the company info section */
+.company-info-section {
+  padding: 80px 0;
+}
+
+.info-box {
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  transition: all 0.3s ease;
+  width: 26vw;
+  height: auto;
+}
+
+.info-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Styles for the "Take the Survey" section */
+.take-survey-section {
+  padding: 40px 0;
+  text-align: center;
+}
+
+/* Styles for the NMOSD info section */
+.nmosd-info-section {
+  padding: 80px 0;
+  color: #000000;
+}
+
+.section-title {
+  margin-bottom: 30px;
+  text-shadow: 2px 2px 4px black;
+  color: #ffffff;
+}
+
+/* General styles for the text in boxes */
+.info-box h3 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.info-box p {
+  font-size: 16px;
+}
