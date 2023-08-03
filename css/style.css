@@ -19,18 +19,18 @@
 }
 
 .nav-link {
-  font-color: black;
+  color: black;
 }
 
 /* For width smaller than 400px: */
-nav img {
+nav #change-me img {
   content: url('../images/PortraitLogo.png');
   /* Need ../ to go back a folder */
 }
 
 /* For width 400px and larger: */
 @media screen and (min-width: 800px) {
-  nav img {
+  nav #change-me img {
     content: url('../images/InlineTransparent.png');
   }
 }
